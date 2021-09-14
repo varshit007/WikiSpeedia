@@ -1,8 +1,8 @@
 
-This project constructs a graph object initialized with vertex/edge data from an input file and a graph algorithms object which can perform a BFS traversal of the graph, as well as return the shortest path between two vertices through both Dijkstra's Algorithm and the Landmark Path Algorithm
+This project constructs a graph object initialized with vertex/edge data from an input file and a graph algorithms object which can perform a BFS traversal of the graph, as well as return the shortest path between two vertices through both Dijkstra's Algorithm and the Landmark Path Algorithm.
 
 ## Data format:
-The data set used (http://snap.stanford.edu/data/wikispeedia.html) stores a file of all edges connecting each of 4,592 wikipedia pages to others. The idea behind this is to see how quickly someone using Wikipedia can get from one article to another by following the hyperlinks to other articles. Each article is a vertex and an edge connects one article to another. All edges have a weight of 1, since the weight of a path is based on the number of articles that must be visited
+The data set used (http://snap.stanford.edu/data/wikispeedia.html) stores a file of all edges connecting each of 4,592 wikipedia pages to others. The idea behind this is to see how quickly someone using Wikipedia can get from one article to another by following the hyperlinks to other articles. Each article is a vertex and an edge connects one article to another. All edges have a weight of 1, since the weight of a path is based on the number of articles that must be visited.
 
 The rules of the data format are:
 - Each line should have two articles separated by a semicolon.
